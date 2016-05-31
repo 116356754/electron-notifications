@@ -1,19 +1,23 @@
 {
-  "name": "electron-notifications",
-  "version": "0.0.3",
-  "description": "A node module for sending notifications in electron applications",
+  "name": "elnotifier",
+  "version": "1.0.0",
+  "description": "electron notification",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/116356754/electron-notifications.git"
+  },
   "keywords": [
-    "electron",
     "notification",
-    "notification center",
-    "toaster",
-    "growl",
-    "notify-send",
-    "terminal-notifier",
-    "notify"
+    "electron"
   ],
-  "repository": "git@github.com:blainesch/electron-notifications.git",
-  "author": "Blaine Schmeisser",
-  "license": "MIT"
+  "author": "wangky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/116356754/electron-notifications/issues"
+  },
+  "homepage": "https://github.com/116356754/electron-notifications#readme"
 }

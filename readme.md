@@ -1,4 +1,4 @@
-## Electron Notifications
+## Electron Notifier
 
 A node module for sending notifications in electron applications.
 
@@ -20,17 +20,11 @@ notifier.notify('Calendar', {
 })
 ~~~
 
-## Installation
-
-~~~
-npm install --save electron-notifications
-~~~
-
 ## Introduction
 
 When you create a new notification, your notification is queued, since we only
-display one at a time. Each notification is a [BrowserWindow](browserwindow)
-instance, so it's completely cross platform.
+display one at a time. You get a [BrowserWindow](browserwindow) instance back
+from the call.
 
 ## Options
 
