@@ -1,6 +1,6 @@
 {
   "name": "elnotifier",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "electron notification",
   "main": "index.js",
   "scripts": {
