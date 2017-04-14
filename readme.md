@@ -23,7 +23,7 @@ A node module for sending notifications in electron applications.
 		icon: 'http://cl.ly/J49B/3951818241085781941.png',//左侧图标
 		buttons: ['close', 'cancel'],//右侧垂直按钮
 		audio:__dirname+'/error.wav',//提示音
-		duration:10000//自动关闭的时间
+		duration:5000//自动关闭的时间
 	})
 
 
